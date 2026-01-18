@@ -1,0 +1,10 @@
+*{
+  margin:0;
+  padding:0;
+  border:border-box;
+  color:white;
+  background-color:black;
+  font-size: larger;
+  border: solid 2px red;
+  display:inline;
+}
