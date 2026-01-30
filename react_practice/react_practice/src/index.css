@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+.main{
+  display:flex;
+  flex-direction:row;
+  flex-wrap:wrap;
+}
+.card{
+  display:flex;
+  flex-direction:column;
+  height:450px;
+  width:400px;
+  margin:20px;
+  border:2px solid black;
+  padding:20px;
+  border-radius:50px;
+  justify-content:space-between;
+  box-shadow: 10px 12px 10px rgba(0,0,0,0.3);
+  border:none;
+  border-left:1px solid black;
+  border-top:1px solid black;
+}
+.top{
+  display:flex;
+  justify-content:space-between
+}
+.top img{
+  height:60px;
+  width:60px;
+  border:2px solid black;
+  border-radius:50%;
+  padding:6px ;
+  object-fit:cover;
+}
+.top button{
+  padding:0px 5px;
+  border-radius:6px;
+  border:none;
+  background-color:rgb(218, 217, 217);
+  font-weight:bolder;
+  font-size:15px;
+  display:flex;
+  align-items:center;      /* vertical center */
+  gap:6px;                 /* space between text & icon */
+  white-space:nowrap;
+  line-height:1;
+}
+
+.center{
+  display:flex;
+  flex-direction:column;
+  gap:5px;
+}
+.center h2{
+  white-space:nowrap;
+  margin:8px;
+  margin-left:0px;
+}
+
+.btn-center button{
+  margin-right:10px;
+  padding:10px;
+  border-radius:8px;
+  border:none;
+  background-color:rgb(218, 217, 217);
+  font-weight:bolder;
+  font-size:15px;
+  white-space: nowrap;
+
+}
+.center h1{
+  background: linear-gradient(
+    90deg,
+    #4285F4,
+    #DB4437,
+    #F4B400,
+    #0F9D58
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 700;
+  margin-right:10px;
+
+}
+.center h1 span{
+  font-size:20px;
+  color:rgb(180, 179, 179);
+  margin-left:6px;
+}
+.footer{
+  border-top:2px solid black;
+  padding:30px 0px;;
+  
+  display:flex;
+  justify-content:space-between;
+}
+.footer p{
+  font-size:25px;
+  margin-bottom:5px;   
+  font-weight:bolder; 
+}
+.footer span{
+  color:rgb(180, 179, 179);
+  font-size:15px;
+
+}
+.footer button{
+  padding:0px 10px ;
+  line-height:1;
+  background-color:black;
+  color:white;
+  border-radius:8px;
+}
